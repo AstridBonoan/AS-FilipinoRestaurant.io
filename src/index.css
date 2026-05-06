@@ -13,6 +13,17 @@
   --color-ember: #8b2e2e;
 }
 
+:root {
+  /* Must match Navbar row height so the home hero fills the viewport with no gap */
+  --layout-nav-height: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --layout-nav-height: 4rem;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

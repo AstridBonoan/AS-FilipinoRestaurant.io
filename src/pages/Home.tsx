@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export function Home() {
   return (
     <div>
-      <section className="relative flex min-h-[calc(100dvh-5rem)] flex-col justify-center overflow-hidden border-b border-brand-900/10 bg-brand-900">
+      <section className="relative flex min-h-[calc(100svh-var(--layout-nav-height))] flex-col justify-center overflow-hidden border-b border-brand-900/10 bg-brand-900">
         <div
           className="pointer-events-none absolute inset-0 opacity-40"
           style={{

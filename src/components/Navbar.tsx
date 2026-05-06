@@ -35,8 +35,8 @@ export function Navbar() {
 
   return (
     <>
-      <header className="sticky top-0 z-40 border-b border-brand-900/10 bg-[#faf8f5]/90 backdrop-blur-md">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 md:py-4">
+      <header className="sticky top-0 z-40 shrink-0 border-b border-brand-900/10 bg-[#faf8f5]/90 backdrop-blur-md">
+        <div className="mx-auto flex min-h-[var(--layout-nav-height)] max-w-6xl items-center justify-between gap-4 px-4">
           <Link
             to="/"
             className="font-display text-xl font-semibold tracking-tight text-brand-950 md:text-2xl"
