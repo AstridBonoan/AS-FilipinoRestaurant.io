@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export function Home() {
   return (
     <div>
-      <section className="relative overflow-hidden border-b border-brand-900/10 bg-brand-900">
+      <section className="relative flex min-h-[calc(100dvh-5rem)] flex-col justify-center overflow-hidden border-b border-brand-900/10 bg-brand-900">
         <div
           className="pointer-events-none absolute inset-0 opacity-40"
           style={{
@@ -11,7 +11,7 @@ export function Home() {
               'radial-gradient(circle at 20% 20%, rgba(201,162,39,0.35), transparent 45%), radial-gradient(circle at 80% 30%, rgba(139,46,46,0.25), transparent 40%)',
           }}
         />
-        <div className="relative mx-auto max-w-6xl px-4 py-16 sm:py-20 lg:py-28">
+        <div className="relative mx-auto w-full max-w-6xl px-4 py-12 sm:py-14 lg:py-16">
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-accent-muted/90">
             Filipino cuisine · New York
           </p>
